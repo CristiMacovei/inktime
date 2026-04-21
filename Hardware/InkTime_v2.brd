@@ -32,7 +32,7 @@
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -45,7 +45,7 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -65,7 +65,7 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
@@ -81,7 +81,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -345,7 +345,7 @@
 <wire x1="-2.425" y1="1.25" x2="-2.425" y2="-1.25" width="0.2" layer="21"/>
 <wire x1="-2.425" y1="-1.25" x2="1.5" y2="-1.25" width="0.2" layer="21"/>
 </package>
-<package name="NORDIC_NRF_3_RESC0201_L" library_version="1">
+<package name="NORDIC_NRF_3_RESC0201_L" library_version="31">
 <description>&lt;b&gt;0201&lt;/b&gt; chip&lt;p&gt;
 0201 (imperial)&lt;br/&gt;
 0603 (metric)&lt;br/&gt;
@@ -363,7 +363,7 @@ IPC High Density</description>
 <wire x1="0.5" y1="0.3" x2="-0.5" y2="0.3" width="0.1" layer="39"/>
 <wire x1="-0.5" y1="0.3" x2="-0.5" y2="-0.3" width="0.1" layer="39"/>
 </package>
-<package name="NORDIC_NRF_3_RESC0402_L" library_version="1">
+<package name="NORDIC_NRF_3_RESC0402_L" library_version="31">
 <description>&lt;b&gt;0402&lt;/b&gt; chip &lt;p&gt;
 
 0402 (imperial)&lt;br/&gt;
@@ -576,7 +576,7 @@ IPC High Density</description>
 <wire x1="-0.858" y1="0.8" x2="-0.4" y2="1.258" width="0.2" layer="21"/>
 <circle x="-0.858" y="1.258" radius="0.1" width="0.2" layer="25"/>
 </package>
-<package name="503480-2400_5034802400" library_version="1">
+<package name="503480-2400_5034802400" library_version="31">
 <description>&lt;b&gt;503480-2400-2&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-5.75" y="1.525" dx="0.7" dy="0.3" layer="1" rot="R90"/>
@@ -1804,7 +1804,7 @@ IPC High Density</description>
 <text x="-0.762" y="-1.016" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
-<package name="NORDIC_NRF_4_AQFN50P700X700X85_HS-74N" library_version="1">
+<package name="NORDIC_NRF_4_AQFN50P700X700X85_HS-74N" library_version="31">
 <smd name="P$74" x="0" y="0" dx="4.85" dy="4.85" layer="1"/>
 <smd name="P$M2" x="-2.75" y="0" dx="0.2" dy="0.2" layer="1" roundness="100"/>
 <smd name="P$K2" x="-2.75" y="0.5" dx="0.2" dy="0.2" layer="1" roundness="100"/>
@@ -1938,7 +1938,7 @@ IPC High Density</description>
 <smd name="8" x="0.985" y="0.75" dx="0.76" dy="0.27" layer="1" roundness="25"/>
 <smd name="9" x="0" y="0" dx="0.9" dy="1.3" layer="1" cream="no"/>
 </package>
-<package name="NORDIC_NRF_BT-XTAL_2016_N" library_version="1">
+<package name="NORDIC_NRF_BT-XTAL_2016_N" library_version="31">
 <description>&lt;b&gt;BT-XTAL_2016&lt;/b&gt;&lt;p&gt;
 
 SMD XTAL 2.0 x 1.6 mm</description>
@@ -1958,7 +1958,7 @@ SMD XTAL 2.0 x 1.6 mm</description>
 <wire x1="-1.45" y1="1.25" x2="-1.45" y2="-1.25" width="0.1" layer="39"/>
 <wire x1="-1.45" y1="-1.25" x2="1.45" y2="-1.25" width="0.1" layer="39"/>
 </package>
-<package name="NORDIC_NRF_1_XTAL_3215_N" library_version="1">
+<package name="NORDIC_NRF_1_XTAL_3215_N" library_version="31">
 <description>&lt;b&gt;XTAL_3215&lt;/b&gt;&lt;p&gt;
 
 XTAL SMD 3.2 x 1.5 mm</description>
@@ -2008,7 +2008,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 &lt;li&gt;Copper weight: 1oz (35um)&lt;/li&gt;
 &lt;li&gt;Note: annular ring aren't minimal&lt;/li&gt;
 &lt;/ul&gt;</description>
-<param name="layerSetup" value="(1+2*15+16)"/>
+<param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.6mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
@@ -2247,7 +2247,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <attribute name="DESCRIPTION" value="                                                      SMD Capacitor X5R(EIA) with Capacitance: 1500pF Tol. 10%. Rated Voltage: 6.3Vdc                                              " x="-19.7" y="13.1" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata" x="-19.7" y="13.1" size="1.778" layer="27" display="off"/>
 <attribute name="MP" value="GRM011R60J152KE01L" x="-19.7" y="13.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-20.25" y="13.52" size="0.5" layer="25"/>
+<attribute name="NAME" x="-19.85" y="12.32" size="0.5" layer="25"/>
 <attribute name="PACKAGE" value="0201 Murata" x="-19.7" y="13.1" size="1.778" layer="27" display="off"/>
 <attribute name="PRICE" value="None" x="-19.7" y="13.1" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/GRM011R60J152KE01L/Murata/view-part/?ref=snap" x="-19.7" y="13.1" size="1.778" layer="27" display="off"/>
@@ -2286,7 +2286,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <element name="C32" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.zH_q4WK0TGGlYGjDtYhl5w" package="GRM011R60J152KE01L_1_0201" value="1uF" x="19.8" y="-0.9" smashed="yes">
 </element>
 <element name="C33" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.zH_q4WK0TGGlYGjDtYhl5w" package="NORDIC_NRF_3_RESC0402_L" value="22uF" x="-14.2" y="13.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="-19.2" y="-3.8" size="0.3048" layer="25" rot="R90"/>
+<attribute name="NAME" x="-13.8" y="12.6" size="0.3048" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-12.2" y="12.5" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C34" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.zH_q4WK0TGGlYGjDtYhl5w" package="GRM011R60J152KE01L_1_0201" value="0.1uF" x="19.5" y="-5.5" smashed="yes" rot="R90">
@@ -2380,7 +2380,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <attribute name="DESCRIPTION" value=" Diode Schottky 30 V 500mA Surface Mount SOD-123 " x="-5" y="-11.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="ON Semiconductor" x="-5" y="-11.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="MBR0530" x="-5" y="-11.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-3" y="-10.9" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="-3.8" y="-13.8" size="0.4064" layer="25" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOD-123-2 ON Semiconductor" x="-5" y="-11.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="-5" y="-11.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=179458&amp;manufacturer=ON Semiconductor&amp;part_name=MBR0530&amp;search_term=None" x="-5" y="-11.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2483,7 +2483,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RT6160AWSC" x="-17.4" y="11.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="835-RT6160AWSC" x="-17.4" y="11.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Richtek/RT6160AWSC?qs=amGC7iS6iy%2FLd9PSoixZXQ%3D%3D" x="-17.4" y="11.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-18.2" y="9.1" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="-17.7" y="9.9" size="0.4064" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="-19.4" y="12.6" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="J1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.zH_q4WK0TGGlYGjDtYhl5w" package="503480-2400_5034802400" value="503480-2400" x="-14" y="0" smashed="yes" rot="R270">
@@ -2505,7 +2505,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TC2030-IDC" x="13.4" y="-6.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="13.4" y="-6.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="13.4" y="-6.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="13.75" y="-1.1" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="13.75" y="-1.8" size="0.4064" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="12.45" y="-6.3" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="J4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.zH_q4WK0TGGlYGjDtYhl5w" package="KH-TYPE-C-16P_KINGHELM_KH-TYPE-C-16P" value="KH-TYPE-C-16P" x="0" y="16.2" smashed="yes" rot="R180">
@@ -2514,7 +2514,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <attribute name="DESCRIPTION" value="                                                                                                    " x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="kinghelm" x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="KH-TYPE-C-16P" x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="1.095" y="14.9" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="0.595" y="16.9" size="1.27" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="None" x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="None" x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/KH-TYPE-C-16P/Kinghelm/view-part/?ref=snap" x="0" y="16.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2752,7 +2752,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <attribute name="DESCRIPTION" value=" 3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge " x="-10.2" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Analog Devices" x="-10.2" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="MAX17048G+T10" x="-10.2" y="15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-10.982" y="14.69" size="0.4064" layer="25" rot="R90"/>
+<attribute name="NAME" x="-9.89" y="17.218" size="0.4064" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="TDFN-8 Maxim" x="-10.2" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="-10.2" y="15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&amp;manufacturer=Analog Devices&amp;part_name=MAX17048G+T10&amp;search_term=None" x="-10.2" y="15" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2805,7 +2805,6 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <wire x1="-15.1" y1="12.4" x2="-15.1" y2="13.7" width="0.3048" layer="1"/>
 <wire x1="-15.9" y1="11.6" x2="-15.1" y2="12.4" width="0.3048" layer="1"/>
 <wire x1="14.353" y1="-5.665" x2="14.668" y2="-5.35" width="0.3048" layer="1"/>
-<wire x1="20.4" y1="-8.4" x2="22.5" y2="-8.4" width="0.3048" layer="1"/>
 <wire x1="11.275" y1="-11.8" x2="11.3375" y2="-11.7375" width="0.3048" layer="1"/>
 <wire x1="11.3375" y1="-11.7375" x2="11.675" y2="-11.4" width="0.3048" layer="1"/>
 <wire x1="11.675" y1="-11.4" x2="11.775" y2="-11.3" width="0.3048" layer="1"/>
@@ -2859,7 +2858,6 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <wire x1="17" y1="16.4" x2="17" y2="13.3" width="0.3048" layer="1"/>
 <wire x1="17" y1="13.3" x2="16.545" y2="12.845" width="0.3048" layer="1"/>
 <wire x1="16.545" y1="12.845" x2="16.3" y2="12.845" width="0.3048" layer="1"/>
-<wire x1="3.725" y1="3.375" x2="12.925" y2="3.375" width="0.3048" layer="1"/>
 <wire x1="9.95" y1="7.25" x2="10.2" y2="7.25" width="0.3048" layer="1"/>
 <wire x1="10.2" y1="7.25" x2="10.45" y2="7" width="0.3048" layer="1"/>
 <wire x1="13.45" y1="5.75" x2="13.45" y2="5.105" width="0.3048" layer="1"/>
@@ -2891,7 +2889,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <wire x1="19" y1="-15.9" x2="21.3" y2="-13.6" width="0.3048" layer="1"/>
 <wire x1="21.3" y1="-13.6" x2="21.3" y2="-12.4" width="0.3048" layer="1"/>
 <wire x1="21.3" y1="-12.4" x2="22.5" y2="-11.2" width="0.3048" layer="1"/>
-<wire x1="22.5" y1="-11.2" x2="22.5" y2="-8.4" width="0.3048" layer="1"/>
+<wire x1="22.5" y1="-11.2" x2="22.5" y2="-9" width="0.3048" layer="1"/>
 <wire x1="-15.1" y1="12.4" x2="-14.8" y2="12.4" width="0.3048" layer="1"/>
 <wire x1="-14.8" y1="12.4" x2="-14.2" y2="13" width="0.3048" layer="1"/>
 <wire x1="-14.8" y1="12.4" x2="-12.8" y2="12.4" width="0.3048" layer="1"/>
@@ -2909,9 +2907,8 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <wire x1="-12.7" y1="11" x2="-12.5" y2="11.2" width="0.3048" layer="1"/>
 <wire x1="-13.15" y1="9.35" x2="-13.375" y2="9.35" width="0.3048" layer="1"/>
 <wire x1="-13.375" y1="9.35" x2="-13.625" y2="9.6" width="0.3048" layer="1"/>
-<wire x1="-2.45" y1="6.65" x2="-1.6" y2="5.8" width="0.3048" layer="1"/>
-<wire x1="-1.6" y1="5.8" x2="1.3" y2="5.8" width="0.3048" layer="1"/>
-<wire x1="1.3" y1="5.8" x2="3.725" y2="3.375" width="0.3048" layer="1"/>
+<wire x1="-2.45" y1="6.65" x2="0.825" y2="3.375" width="0.3048" layer="1"/>
+<wire x1="0.825" y1="3.375" x2="12.925" y2="3.375" width="0.3048" layer="1"/>
 <wire x1="-7.975" y1="6.65" x2="-11.8" y2="6.65" width="0.3048" layer="1"/>
 <wire x1="-11.8" y1="6.65" x2="-12.525" y2="7.375" width="0.3048" layer="1"/>
 <wire x1="-12.525" y1="7.375" x2="-13.45" y2="8.3" width="0.3048" layer="1"/>
@@ -2941,6 +2938,8 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <wire x1="15.945" y1="4.255" x2="15.945" y2="5.1" width="0.3048" layer="1"/>
 <wire x1="15.945" y1="5.1" x2="15.945" y2="5.745" width="0.3048" layer="1"/>
 <wire x1="15.945" y1="5.745" x2="15.95" y2="5.75" width="0.3048" layer="1"/>
+<wire x1="22.5" y1="-9" x2="21.9" y2="-8.4" width="0.3048" layer="1"/>
+<wire x1="21.9" y1="-8.4" x2="20.4" y2="-8.4" width="0.3048" layer="1"/>
 </signal>
 <signal name="ALERT">
 <contactref element="U3" pad="5"/>
@@ -2950,8 +2949,8 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <via x="-8.7" y="16.5" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
 <wire x1="-8.7" y1="16.5" x2="-8.1" y2="17.1" width="0.15" layer="16"/>
-<wire x1="16.45" y1="9.75" x2="17.05" y2="9.75" width="0.15" layer="1"/>
-<wire x1="17.05" y1="9.75" x2="17.1" y2="9.7" width="0.15" layer="1"/>
+<wire x1="17.1" y1="9.7" x2="17.05" y2="9.75" width="0.15" layer="1"/>
+<wire x1="17.05" y1="9.75" x2="16.45" y2="9.75" width="0.15" layer="1"/>
 <via x="17.1" y="9.7" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
 <wire x1="17" y1="17" x2="5.8" y2="17" width="0.15" layer="16"/>
@@ -2963,19 +2962,23 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <wire x1="-5.3" y1="15.5" x2="-5.3" y2="16.6" width="0.15" layer="16"/>
 <wire x1="-5.3" y1="16.6" x2="-5.8" y2="17.1" width="0.15" layer="16"/>
 <wire x1="-5.8" y1="17.1" x2="-8.1" y2="17.1" width="0.15" layer="16"/>
-<wire x1="17.15" y1="9.65" x2="17.1" y2="9.7" width="0.15" layer="16"/>
-<wire x1="17.5" y1="16.5" x2="17.5" y2="9.7" width="0.15" layer="16"/>
-<wire x1="17.1" y1="9.7" x2="17.5" y2="9.7" width="0.15" layer="16"/>
+<wire x1="17.5" y1="16.5" x2="17.5" y2="10" width="0.15" layer="16"/>
 <wire x1="17.5" y1="16.5" x2="17" y2="17" width="0.15" layer="16"/>
+<wire x1="17.5" y1="10" x2="17.2" y2="9.7" width="0.15" layer="16"/>
+<wire x1="17.2" y1="9.7" x2="17.1" y2="9.7" width="0.15" layer="16"/>
 </signal>
 <signal name="D+">
 <contactref element="U1" pad="P$AD6"/>
 <contactref element="D3" pad="4"/>
-<wire x1="-1.05" y1="7.25" x2="-1.05" y2="6.35" width="0.15" layer="1"/>
-<wire x1="-1.05" y1="6.35" x2="-0.9" y2="6.2" width="0.15" layer="1"/>
-<wire x1="-0.9" y1="6.2" x2="1.5" y2="6.2" width="0.15" layer="1"/>
-<wire x1="1.5" y1="6.2" x2="3.9" y2="3.8" width="0.15" layer="1"/>
-<wire x1="3.9" y1="3.8" x2="10" y2="3.8" width="0.15" layer="1"/>
+<wire x1="-1.05" y1="7.25" x2="-1.05" y2="5.85" width="0.15" layer="1"/>
+<wire x1="-1.05" y1="5.85" x2="-0.8097125" y2="5.6097125" width="0.15" layer="1"/>
+<wire x1="-0.8097125" y1="5.6097125" x2="-0.6597125" y2="5.6097125" width="0.15" layer="1" curve="90"/>
+<wire x1="-0.6597125" y1="5.6097125" x2="-0.5097125" y2="5.6097125" width="0.15" layer="1" curve="-90"/>
+<wire x1="-0.5097125" y1="5.6097125" x2="-0.329140625" y2="5.429140625" width="0.15" layer="1"/>
+<wire x1="-0.329140625" y1="5.429140625" x2="-0.329140625" y2="5.279140625" width="0.15" layer="1" curve="-90"/>
+<wire x1="-0.329140625" y1="5.279140625" x2="-0.329140625" y2="5.129140625" width="0.15" layer="1" curve="90"/>
+<wire x1="-0.329140625" y1="5.129140625" x2="1" y2="3.8" width="0.15" layer="1"/>
+<wire x1="1" y1="3.8" x2="10" y2="3.8" width="0.15" layer="1"/>
 <wire x1="10" y1="3.8" x2="11.25" y2="5.05" width="0.15" layer="1"/>
 <wire x1="11.25" y1="5.55" x2="11.45" y2="5.75" width="0.15" layer="1"/>
 <wire x1="11.25" y1="5.55" x2="11.25" y2="5.05" width="0.15" layer="1"/>
@@ -2983,8 +2986,16 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <signal name="D-">
 <contactref element="U1" pad="P$AD4"/>
 <contactref element="D3" pad="6"/>
-<wire x1="0.85" y1="7.25" x2="4" y2="4.1" width="0.15" layer="1"/>
-<wire x1="4" y1="4.1" x2="9.9" y2="4.1" width="0.15" layer="1"/>
+<wire x1="1.2" y1="4.1" x2="0.85" y2="4.45" width="0.15" layer="1"/>
+<wire x1="0.85" y1="7.25" x2="0.85" y2="6" width="0.15" layer="1"/>
+<wire x1="0.85" y1="6" x2="1.08375" y2="5.76625" width="0.15" layer="1" curve="90"/>
+<wire x1="1.08375" y1="5.76625" x2="1.776953125" y2="5.76625" width="0.15" layer="1"/>
+<wire x1="1.776953125" y1="5.76625" x2="2.010703125" y2="5.5325" width="0.15" layer="1" curve="-90"/>
+<wire x1="2.010703125" y1="5.5325" x2="1.776953125" y2="5.29875" width="0.15" layer="1" curve="-90"/>
+<wire x1="1.776953125" y1="5.29875" x2="1.08375" y2="5.29875" width="0.15" layer="1"/>
+<wire x1="1.08375" y1="5.29875" x2="0.85" y2="5.065" width="0.15" layer="1" curve="90"/>
+<wire x1="0.85" y1="5.065" x2="0.85" y2="4.45" width="0.15" layer="1"/>
+<wire x1="1.2" y1="4.1" x2="9.9" y2="4.1" width="0.15" layer="1"/>
 <wire x1="9.9" y1="4.1" x2="10.95" y2="5.15" width="0.15" layer="1"/>
 <wire x1="10.95" y1="5.15" x2="10.95" y2="5.75" width="0.15" layer="1"/>
 </signal>
@@ -3379,7 +3390,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 </via>
 <via x="6.4" y="11.1" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
-<via x="17.6" y="2.8" extent="1-16" drill="0.2" alwaysstop="yes">
+<via x="18.1" y="2.2" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
 <via x="16.3" y="1.9" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
@@ -3402,6 +3413,139 @@ XTAL SMD 3.2 x 1.5 mm</description>
 </via>
 <via x="18.6" y="6.7" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
+<wire x1="20.175" y1="13.925" x2="21.4" y2="12.755" width="0" layer="19" extent="1-1"/>
+<wire x1="19.025" y1="12.475" x2="20.175" y2="13.925" width="0" layer="19" extent="1-1"/>
+<wire x1="17.9" y1="12.3" x2="19.025" y2="12.475" width="0" layer="19" extent="1-1"/>
+<wire x1="17.555" y1="11.3" x2="17.9" y2="12.3" width="0" layer="19" extent="1-1"/>
+<wire x1="15.95" y1="10.5" x2="17.555" y2="11.3" width="0" layer="19" extent="1-1"/>
+<wire x1="13.8" y1="10.8" x2="15" y2="10.8" width="0" layer="19" extent="1-1"/>
+<wire x1="12.6" y1="10.8" x2="13.8" y2="10.8" width="0" layer="19" extent="1-1"/>
+<wire x1="13.8" y1="9.6" x2="13.8" y2="10.8" width="0" layer="19" extent="1-1"/>
+<wire x1="13.2" y1="9" x2="13.8" y2="9.6" width="0" layer="19" extent="1-1"/>
+<wire x1="13.8" y1="8.4" x2="13.2" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="12.6" y1="9.6" x2="13.2" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="12.6" y1="8.4" x2="13.2" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="9.6" x2="15" y2="10.8" width="0" layer="19" extent="1-1"/>
+<wire x1="16" y1="9" x2="15" y2="9.6" width="0" layer="19" extent="1-1"/>
+<wire x1="17.1" y1="9.155" x2="16" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="8.4" x2="16" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="11.4" y1="10.8" x2="12.6" y2="10.8" width="0" layer="19" extent="1-1"/>
+<wire x1="11.4" y1="9.6" x2="12.6" y2="9.6" width="0" layer="19" extent="1-1"/>
+<wire x1="11.4" y1="8.4" x2="12.6" y2="8.4" width="0" layer="19" extent="1-1"/>
+<wire x1="13.8" y1="7.2" x2="13.8" y2="8.4" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="7.2" x2="15" y2="8.4" width="0" layer="19" extent="1-1"/>
+<wire x1="11.4" y1="7.2" x2="11.4" y2="8.4" width="0" layer="19" extent="1-1"/>
+<wire x1="12.6" y1="7.2" x2="12.6" y2="8.4" width="0" layer="19" extent="1-1"/>
+<wire x1="16.3" y1="13.355" x2="17.9" y2="12.3" width="0" layer="19" extent="1-1"/>
+<wire x1="15.1" y1="13.355" x2="16.3" y2="13.355" width="0" layer="19" extent="1-1"/>
+<wire x1="15.555" y1="14.4" x2="15.1" y2="13.355" width="0" layer="19" extent="1-1"/>
+<wire x1="15.555" y1="15.1" x2="15.555" y2="14.4" width="0" layer="19" extent="1-1"/>
+<wire x1="16.3" y1="14.7" x2="15.555" y2="14.4" width="0" layer="19" extent="1-1"/>
+<wire x1="16.1" y1="15.9" x2="15.555" y2="15.1" width="0" layer="19" extent="1-1"/>
+<wire x1="17.7" y1="14.255" x2="16.3" y2="14.7" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5" y1="15.5" x2="17.7" y2="14.255" width="0" layer="19" extent="1-1"/>
+<wire x1="13.955" y1="5.1" x2="13.8" y2="7.2" width="0" layer="19" extent="1-1"/>
+<wire x1="14.9" y1="5.1" x2="13.955" y2="5.1" width="0" layer="19" extent="1-1"/>
+<wire x1="16.455" y1="5.1" x2="14.9" y2="5.1" width="0" layer="19" extent="1-1"/>
+<wire x1="21.455" y1="10.5" x2="21.4" y2="12.755" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6" y1="8.755" x2="21.455" y2="10.5" width="0" layer="19" extent="1-1"/>
+<wire x1="20.9" y1="8.755" x2="21.6" y2="8.755" width="0" layer="19" extent="1-1"/>
+<wire x1="19.4" y1="7.3" x2="20.9" y2="8.755" width="0" layer="19" extent="1-1"/>
+<wire x1="19.4" y1="6.7" x2="19.4" y2="7.3" width="0" layer="19" extent="1-1"/>
+<wire x1="18.6" y1="7.3" x2="19.4" y2="7.3" width="0" layer="19" extent="1-1"/>
+<wire x1="18.6" y1="6.7" x2="18.6" y2="7.3" width="0" layer="19" extent="1-1"/>
+<wire x1="9.8" y1="5.4" x2="11.4" y2="7.2" width="0" layer="19" extent="1-1"/>
+<wire x1="9.1" y1="5.2" x2="9.8" y2="5.4" width="0" layer="19" extent="1-1"/>
+<wire x1="8.1" y1="6.1" x2="9.1" y2="5.2" width="0" layer="19" extent="1-1"/>
+<wire x1="7.3" y1="7" x2="8.1" y2="7" width="0" layer="19" extent="1-1"/>
+<wire x1="8.045" y1="8.5" x2="8.1" y2="7" width="0" layer="19" extent="1-1"/>
+<wire x1="9.2" y1="11.855" x2="11.4" y2="10.8" width="0" layer="19" extent="1-1"/>
+<wire x1="7.3" y1="13.1" x2="8.3" y2="13.4" width="0" layer="19" extent="1-1"/>
+<wire x1="6.145" y1="13.3" x2="7.3" y2="13.1" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="14.5" x2="7.3" y2="13.1" width="0" layer="19" extent="1-1"/>
+<wire x1="6.4" y1="11.1" x2="7.3" y2="13.1" width="0" layer="19" extent="1-1"/>
+<wire x1="4.32" y1="12.05" x2="6.145" y2="13.3" width="0" layer="19" extent="1-1"/>
+<wire x1="3.2" y1="11.475" x2="4.32" y2="12.05" width="0" layer="19" extent="1-1"/>
+<wire x1="2.2" y1="13.1" x2="3.2" y2="11.475" width="0" layer="19" extent="1-1"/>
+<wire x1="2.8" y1="14.5" x2="2.2" y2="13.1" width="0" layer="19" extent="1-1"/>
+<wire x1="2.8" y1="15.8" x2="2.8" y2="14.5" width="0" layer="19" extent="1-1"/>
+<wire x1="4.32" y1="16.2" x2="2.8" y2="15.8" width="0" layer="19" extent="1-1"/>
+<wire x1="2.1" y1="9.625" x2="3.2" y2="11.475" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.1" y1="9.75" x2="2.1" y2="9.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.3" y1="9.625" x2="-0.1" y2="9.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.4" y1="9" x2="-2.3" y2="9.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.2" y1="8.775" x2="-2.4" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.2" y1="11.475" x2="-2.3" y2="9.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.32" y1="12.05" x2="-3.2" y2="11.475" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.2" y1="13.1" x2="-3.2" y2="11.475" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.085" y1="12.1" x2="-4.32" y2="12.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.1" y1="11.4" x2="-7.085" y2="12.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.2" y1="9.545" x2="-7.1" y2="11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.75" y1="9.675" x2="-7.2" y2="9.545" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.25" y1="9.675" x2="-8.75" y2="9.675" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.5" y1="10.7" x2="-9.25" y2="9.675" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.3" y1="11.5" x2="-10.5" y2="10.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.8" y1="13.1" x2="-7.085" y2="12.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.515" y1="12.9" x2="-8.8" y2="13.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.45" y1="14.015" x2="-8.8" y2="13.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.4" y1="15.285" x2="-9.45" y2="14.015" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.975" y1="16.4" x2="-8.4" y2="15.285" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.9" y1="14.8" x2="-8.4" y2="15.285" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.975" y1="8.3" x2="-10.5" y2="10.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.5" y1="8.5" x2="-11.975" y2="8.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.7" y1="6.4" x2="-12.5" y2="8.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.125" y1="6.54" x2="-13.7" y2="6.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.32" y1="16.2" x2="-6.9" y2="14.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.2" y1="14" x2="-12" y2="11.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.2" y1="15.7" x2="-15.1" y2="14.7" width="0" layer="19" extent="1-1"/>
+<wire x1="16.3" y1="1.9" x2="16.455" y2="5.1" width="0" layer="19" extent="1-1"/>
+<wire x1="18.1" y1="2.2" x2="16.3" y2="1.9" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8" y1="-0.625" x2="18.1" y2="2.2" width="0" layer="19" extent="1-1"/>
+<wire x1="20.6" y1="-1.4" x2="19.8" y2="-0.625" width="0" layer="19" extent="1-1"/>
+<wire x1="20.6" y1="-3.3" x2="20.6" y2="-1.4" width="0" layer="19" extent="1-1"/>
+<wire x1="19.9" y1="-3.2" x2="20.6" y2="-3.3" width="0" layer="19" extent="1-1"/>
+<wire x1="21.6" y1="-3.3" x2="20.6" y2="-3.3" width="0" layer="19" extent="1-1"/>
+<wire x1="19.9" y1="-4.5" x2="19.9" y2="-3.2" width="0" layer="19" extent="1-1"/>
+<wire x1="19.225" y1="-5.5" x2="19.9" y2="-4.5" width="0" layer="19" extent="1-1"/>
+<wire x1="18.7" y1="-4.9" x2="19.225" y2="-5.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.4" y1="11.6" x2="-15.1" y2="14.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.885" y1="13.1" x2="-17.4" y2="11.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.7" y1="13.1" x2="-19.885" y2="13.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.6" y1="14" x2="-20.7" y2="13.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.475" y1="2.25" x2="-13.7" y2="6.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.6" y1="2.6" x2="-12.475" y2="2.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.6" y1="2.6" x2="-10.6" y2="2.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.945" y1="-1.2" x2="-9.6" y2="2.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.3" y1="-2.1" x2="-9.945" y2="-1.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.4" y1="-2.1" x2="-9.3" y2="-2.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.5" y1="-2.1" x2="-8.4" y2="-2.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.6" y1="-2.1" x2="-7.5" y2="-2.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.7" y1="-2.1" x2="-6.6" y2="-2.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.8" y1="-2.1" x2="-5.7" y2="-2.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.9" y1="-2.1" x2="-4.8" y2="-2.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.475" y1="-2.25" x2="-9.945" y2="-1.2" width="0" layer="19" extent="1-1"/>
+<wire x1="14" y1="-4.8" x2="18.7" y2="-4.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.125" y1="-6.54" x2="-12.475" y2="-2.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.7" y1="-7.4" x2="-15.125" y2="-6.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.7" y1="-7.7" x2="-15.125" y2="-6.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.2" y1="-8.8" x2="-13.7" y2="-7.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.025" y1="-9.6" x2="-14.2" y2="-8.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.3" y1="-8.2" x2="-15.7" y2="-7.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.125" y1="-8.3" x2="-20.3" y2="-8.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.7" y1="-11.262" x2="-21.125" y2="-8.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.3" y1="-12.6" x2="-21.7" y2="-11.262" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.025" y1="-12.4" x2="-14.2" y2="-8.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.5998" y1="-13.5285" x2="-11.025" y2="-12.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.8" y1="-15.9" x2="-9.5998" y2="-13.5285" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.3" y1="-15.8" x2="-6.8" y2="-15.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-5" y1="-13.65" x2="-4.3" y2="-15.8" width="0" layer="19" extent="1-1"/>
+<wire x1="0.275" y1="-12.5" x2="-5" y2="-13.65" width="0" layer="19" extent="1-1"/>
+<wire x1="1.4002" y1="-13.6781" x2="0.275" y2="-12.5" width="0" layer="19" extent="1-1"/>
+<wire x1="4.4" y1="-16" x2="1.4002" y2="-13.6781" width="0" layer="19" extent="1-1"/>
+<wire x1="6.9" y1="-15.9" x2="4.4" y2="-16" width="0" layer="19" extent="1-1"/>
+<wire x1="11.275" y1="-12.4" x2="6.9" y2="-15.9" width="0" layer="19" extent="1-1"/>
+<wire x1="12.4002" y1="-13.5285" x2="11.275" y2="-12.4" width="0" layer="19" extent="1-1"/>
+<wire x1="13.3" y1="-12.5" x2="12.4002" y2="-13.5285" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HAPTIC_EN">
 <contactref element="U1" pad="P$U1"/>
@@ -3417,9 +3561,9 @@ XTAL SMD 3.2 x 1.5 mm</description>
 </via>
 <wire x1="11.3" y1="-0.9" x2="9.6" y2="-0.9" width="0.15" layer="1"/>
 <wire x1="9.6" y1="-0.9" x2="9.4" y2="-1.1" width="0.15" layer="1"/>
-<wire x1="9.4" y1="-1.1" x2="7.7" y2="-1.1" width="0.15" layer="1"/>
-<wire x1="7.7" y1="-1.1" x2="7.5" y2="-0.9" width="0.15" layer="1"/>
-<wire x1="7.5" y1="-0.9" x2="7.5" y2="1.2" width="0.15" layer="1"/>
+<wire x1="9.4" y1="-1.1" x2="8" y2="-1.1" width="0.15" layer="1"/>
+<wire x1="8" y1="-1.1" x2="7.5" y2="-0.6" width="0.15" layer="1"/>
+<wire x1="7.5" y1="-0.6" x2="7.5" y2="1.2" width="0.15" layer="1"/>
 <wire x1="7.5" y1="1.2" x2="5.9" y2="2.8" width="0.15" layer="1"/>
 <via x="5.9" y="2.8" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
@@ -3898,9 +4042,8 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <wire x1="8.8" y1="-1.4" x2="10" y2="-1.4" width="0.15" layer="1"/>
 <via x="10" y="-1.4" extent="1-16" drill="0.2" alwaysstop="yes">
 </via>
-<wire x1="10" y1="-1.4" x2="11.7" y2="0.3" width="0.15" layer="16"/>
-<wire x1="11.7" y1="0.3" x2="11.7" y2="2.1" width="0.15" layer="16"/>
-<wire x1="11.7" y1="2.1" x2="14.5" y2="4.9" width="0.15" layer="16"/>
+<wire x1="10" y1="-1.4" x2="10" y2="0.4" width="0.15" layer="16"/>
+<wire x1="10" y1="0.4" x2="14.5" y2="4.9" width="0.15" layer="16"/>
 <wire x1="14.5" y1="4.9" x2="14.5" y2="5.45" width="0.15" layer="16"/>
 <wire x1="15.95" y1="7" x2="15.95" y2="6.9" width="0.15" layer="16"/>
 <wire x1="15.95" y1="6.9" x2="14.5" y2="5.45" width="0.15" layer="16"/>
@@ -4030,9 +4173,8 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <wire x1="-13.4" y1="4.2" x2="-12.85" y2="4.75" width="0.15" layer="1"/>
 <wire x1="-12.85" y1="4.75" x2="-12.475" y2="4.75" width="0.15" layer="1"/>
 <wire x1="-14.3" y1="-6.7" x2="-14.3" y2="-6.2" width="0.15" layer="1"/>
-<wire x1="-14.3" y1="-6.2" x2="-14.6" y2="-5.9" width="0.15" layer="1"/>
-<wire x1="-14.6" y1="-5.9" x2="-15.5" y2="-5.9" width="0.15" layer="1"/>
-<wire x1="-15.5" y1="-5.9" x2="-15.5" y2="2.3" width="0.15" layer="1"/>
+<wire x1="-14.3" y1="-6.2" x2="-15.5" y2="-5" width="0.15" layer="1"/>
+<wire x1="-15.5" y1="-5" x2="-15.5" y2="2.3" width="0.15" layer="1"/>
 <wire x1="-15.5" y1="2.3" x2="-14.6" y2="3.2" width="0.15" layer="1"/>
 <wire x1="-17.15" y1="-7.95" x2="-17.6" y2="-7.5" width="0.15" layer="1"/>
 <wire x1="-17.6" y1="-7.5" x2="-20.725" y2="-7.5" width="0.15" layer="1"/>
@@ -4335,10 +4477,10 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <wire x1="-11.4" y1="13" x2="-10.7" y2="13" width="0.3048" layer="1"/>
 <wire x1="-10.7" y1="13" x2="-10.45" y2="13.25" width="0.3048" layer="1"/>
 <wire x1="-10.45" y1="14.015" x2="-10.45" y2="13.25" width="0.3048" layer="1"/>
-<wire x1="-9.95" y1="14.015" x2="-9.885" y2="13.95" width="0.254" layer="1"/>
-<wire x1="-9.885" y1="13.95" x2="-9.885" y2="12.9" width="0.254" layer="1"/>
 <wire x1="-7.7" y1="14.4" x2="-7.885" y2="14.4" width="0.3048" layer="1"/>
 <wire x1="-7.885" y1="14.4" x2="-8.4" y2="14.915" width="0.254" layer="1"/>
+<wire x1="-9.885" y1="12.9" x2="-9.95" y2="12.965" width="0.2032" layer="1"/>
+<wire x1="-9.95" y1="12.965" x2="-9.95" y2="14.015" width="0.3048" layer="1"/>
 </signal>
 <signal name="VBUS">
 <contactref element="C38" pad="2"/>
@@ -4461,6 +4603,18 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <approved hash="4,1,b3121c5e676e0d23"/>
 <approved hash="4,1,9d187d85246fbf03"/>
 <approved hash="4,1,42b962b163aab100"/>
+<approved hash="19,1,46fe588e1e8800f8"/>
+<approved hash="19,1,578054fbf0fff384"/>
+<approved hash="19,1,c8bfcffa47fe40bb"/>
+<approved hash="19,1,7cde7f9d7f997cda"/>
+<approved hash="19,1,5e485fc39bc79a4c"/>
+<approved hash="19,1,324833c4c3c0c24c"/>
+<approved hash="19,1,564857bbf3bff24c"/>
+<approved hash="19,1,6ce06fc547c144e4"/>
+<approved hash="19,1,2c462c86cc82cc42"/>
+<approved hash="19,1,2c3a2e06ce02cc3e"/>
+<approved hash="19,1,2c722f46cf42cc76"/>
+<approved hash="19,1,2c5e2c9ecc9acc5a"/>
 </errors>
 </board>
 </drawing>
